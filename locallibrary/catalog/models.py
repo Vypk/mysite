@@ -1,9 +1,8 @@
+import uuid
+from datetime import date
 from django.db import models
 from django.urls import reverse
-import uuid
 from django.contrib.auth.models import User
-from datetime import date
-
 # Create your models here.
 class Genre(models.Model):
     """Model representing a book genre."""
