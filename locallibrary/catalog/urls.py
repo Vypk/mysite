@@ -22,4 +22,3 @@ urlpatterns = [
     path('allbooks/', views.LoanedBooksByStaffListView.as_view(), name='all-borrowed'),
 ]
 
-
